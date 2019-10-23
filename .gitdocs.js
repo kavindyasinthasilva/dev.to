@@ -8,4 +8,6 @@ var config = require('./docs/.gitdocs.json');
 module.exports = new Promise((resolve, reject) => {
   config.root = 'docs/';
   resolve(config);
+  
+  aleart ("not valide)
 });
