@@ -13,7 +13,7 @@ gem "activerecord-import", "~> 1.0" # Adds ability to bulk create activerecord o
 gem "acts-as-taggable-on", "~> 6.0" # A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts
 gem "acts_as_follower", github: "thepracticaldev/acts_as_follower", branch: "master" # Allow any model to follow any other model
 gem "addressable", "~> 2.7" # A replacement for the URI implementation that is part of Ruby's standard library
-gem "administrate", "~> 0.12" # A Rails engine that helps you put together a super-flexible admin dashboard
+gem "administrate", "~> 0.12", ">= 0.12.0" # A Rails engine that helps you put together a super-flexible admin dashboard
 gem "ahoy_email", "~> 1.1" # Email analytics for Rails
 gem "airbrake", "~> 9.4" # Airbrake is an online tool that provides robust exception tracking in any of your Ruby applications
 gem "algoliasearch-rails", "~> 1.23" # Algolia Search is a hosted search engine capable of delivering real-time results from the first keystroke
@@ -54,7 +54,7 @@ gem "httparty", "~> 0.17" # Makes http fun! Also, makes consuming restful web se
 gem "inline_svg", "~> 1.5" # Embed SVG documents in your Rails views and style them with CSS
 gem "jbuilder", "~> 2.9" # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
-gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
+gem "kaminari", "~> 1.2", ">= 1.2.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
 gem "liquid", "~> 4.0" # A secure, non-evaling end user template engine with aesthetic markup
 gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
 gem "octokit", "~> 4.14" # Simple wrapper for the GitHub API
