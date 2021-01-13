@@ -59,8 +59,8 @@ gem "liquid", "~> 4.0" # A secure, non-evaling end user template engine with aes
 gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
 gem "octokit", "~> 4.14" # Simple wrapper for the GitHub API
 gem "oj", "~> 3.9" # JSON parser and object serializer
-gem "omniauth", "~> 1.9" # A generalized Rack framework for multiple-provider authentication
-gem "omniauth-github", "~> 1.3" # OmniAuth strategy for GitHub
+gem "omniauth", "~> 2.0", ">= 2.0.0" # A generalized Rack framework for multiple-provider authentication
+gem "omniauth-github", "~> 2.0", ">= 2.0.0" # OmniAuth strategy for GitHub
 gem "omniauth-twitter", "~> 1.4" # OmniAuth strategy for Twitter
 gem "pg", "~> 1.1" # Pg is the Ruby interface to the PostgreSQL RDBMS
 gem "puma", "~> 4.2" # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server
@@ -72,7 +72,7 @@ gem "rails", "~> 5.2", ">= 5.2.3" # Ruby on Rails
 gem "rails-assets-airbrake-js-client", "~> 1.6", source: "https://rails-assets.org" # Airbrake JavaScript Notifier
 gem "rails-observers", "~> 0.1" # Rails observer (removed from core in Rails 4.0)
 gem "recaptcha", "~> 5.2", require: "recaptcha/rails" # Helpers for the reCAPTCHA API
-gem "redcarpet", "~> 3.5" # A fast, safe and extensible Markdown to (X)HTML parser
+gem "redcarpet", "~> 3.5", ">= 3.5.1" # A fast, safe and extensible Markdown to (X)HTML parser
 gem "reverse_markdown", "~> 1.3" # Map simple html back into markdown
 gem "rolify", "~> 5.2" # Very simple Roles library
 gem "rouge", "~> 3.11" # A pure-ruby code highlighter
