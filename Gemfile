@@ -68,7 +68,7 @@ gem "pundit", "~> 2.1" # Object oriented authorization for Rails applications
 gem "pusher", "~> 1.3" # Ruby library for Pusher Channels HTTP API
 gem "pusher-push-notifications", "~> 1.1" # Pusher Push Notifications Ruby server SDK
 gem "rack-timeout", "~> 0.5" # Rack middleware which aborts requests that have been running for longer than a specified timeout
-gem "rails", "~> 5.2", ">= 5.2.3" # Ruby on Rails
+gem "rails", "~> 6.0", ">= 6.0.3.5" # Ruby on Rails
 gem "rails-assets-airbrake-js-client", "~> 1.6", source: "https://rails-assets.org" # Airbrake JavaScript Notifier
 gem "rails-observers", "~> 0.1" # Rails observer (removed from core in Rails 4.0)
 gem "recaptcha", "~> 5.2", require: "recaptcha/rails" # Helpers for the reCAPTCHA API
@@ -77,8 +77,8 @@ gem "reverse_markdown", "~> 1.3" # Map simple html back into markdown
 gem "rolify", "~> 5.2" # Very simple Roles library
 gem "rouge", "~> 3.11" # A pure-ruby code highlighter
 gem "rubyzip", "~> 1.2", ">= 1.3.0" # Rubyzip is a ruby library for reading and writing zip files
-gem "s3_direct_upload", "~> 0.1" # Direct Upload to Amazon S3
-gem "sail", "~> 1.5" # Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app
+gem "s3_direct_upload", "~> 0.1", ">= 0.1.7" # Direct Upload to Amazon S3
+gem "sail", "~> 1.5", ">= 1.5.1" # Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app
 gem "sass-rails", "~> 6.0" # Sass adapter for the Rails asset pipeline
 gem "scout_apm", "~> 2.6" # Monitors Ruby apps and reports detailed metrics on performance to Scout
 gem "serviceworker-rails", "~> 0.6" # Integrates ServiceWorker into the Rails asset pipeline
@@ -90,7 +90,7 @@ gem "staccato", "~> 0.5" # Ruby Google Analytics Measurement
 gem "storext", "~> 3.1" # Add type-casting and other features on top of ActiveRecord::Store.store_accessor
 gem "stripe", "~> 4.23" # Ruby library for the Stripe API
 gem "timber", "~> 3.0" # Great Ruby logging made easy
-gem "timber-rails", "~> 1.0" #  Timber integration for Rails
+gem "timber-rails", "~> 1.0", ">= 1.0.1" #  Timber integration for Rails
 gem "twilio-ruby", "~> 5.28" # The official library for communicating with the Twilio REST API
 gem "twitter", "~> 6.2" # A Ruby interface to the Twitter API
 gem "uglifier", "~> 4.2" # Uglifier minifies JavaScript files
