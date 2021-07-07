@@ -12,9 +12,9 @@ gem "active_record_union", "~> 1.3" # Adds proper union and union_all methods to
 gem "activerecord-import", "~> 1.0" # Adds ability to bulk create activerecord objects
 gem "acts-as-taggable-on", "~> 6.0" # A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts
 gem "acts_as_follower", github: "thepracticaldev/acts_as_follower", branch: "master" # Allow any model to follow any other model
-gem "addressable", "~> 2.7" # A replacement for the URI implementation that is part of Ruby's standard library
+gem "addressable", "~> 2.8", ">= 2.8.0" # A replacement for the URI implementation that is part of Ruby's standard library
 gem "administrate", "~> 0.12" # A Rails engine that helps you put together a super-flexible admin dashboard
-gem "ahoy_email", "~> 1.1" # Email analytics for Rails
+gem "ahoy_email", "~> 1.1", ">= 1.1.0" # Email analytics for Rails
 gem "airbrake", "~> 9.4" # Airbrake is an online tool that provides robust exception tracking in any of your Ruby applications
 gem "algoliasearch-rails", "~> 1.23" # Algolia Search is a hosted search engine capable of delivering real-time results from the first keystroke
 gem "algorithmia", "~> 1.1" # Ruby Client for Algorithmia Algorithms and Data API
@@ -22,9 +22,9 @@ gem "ancestry", "~> 3.0" # Ancestry allows the records of a ActiveRecord model t
 gem "autoprefixer-rails", "~> 9.6" # Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
 gem "aws-sdk-lambda", "~> 1.30" # Official AWS Ruby gem for AWS Lambda
 gem "bootsnap", ">= 1.1.0", require: false # Boot large ruby/rails apps faster
-gem "buffer", "~> 0.1" # Buffer is a Ruby Wrapper for the Buffer API
-gem "carrierwave", "~> 2.0" # Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends
-gem "carrierwave-bombshelter", "~> 0.2" # Protect your carrierwave from image bombs
+gem "buffer", "~> 0.1", ">= 0.1.3" # Buffer is a Ruby Wrapper for the Buffer API
+gem "carrierwave", "~> 2.0", ">= 2.0.2" # Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends
+gem "carrierwave-bombshelter", "~> 0.2", ">= 0.2.2" # Protect your carrierwave from image bombs
 gem "cld", "~> 0.8" # Compact Language Detection for Ruby
 gem "cloudinary", "~> 1.12" # Client library for easily using the Cloudinary service
 gem "counter_culture", "~> 2.2" # counter_culture provides turbo-charged counter caches that are kept up-to-date
@@ -47,7 +47,7 @@ gem "fog-aws", "~> 3.5" # 'fog' gem to support Amazon Web Services
 gem "front_matter_parser", "~> 0.2" # Parse a front matter from syntactically correct strings or files
 gem "gemoji", "~> 3.0.1" # Character information and metadata for standard and custom emoji
 gem "gibbon", "~> 3.2" # API wrapper for MailChimp's API
-gem "google-api-client", "~> 0.33" # Client for accessing Google APIs
+gem "google-api-client", "~> 0.33", ">= 0.33.1" # Client for accessing Google APIs
 gem "html_truncator", "~> 0.4" # Truncate an HTML string properly
 gem "htmlentities", "~> 4.3", ">= 4.3.4"
 gem "httparty", "~> 0.17" # Makes http fun! Also, makes consuming restful web services dead easy
@@ -57,7 +57,7 @@ gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
 gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
 gem "liquid", "~> 4.0" # A secure, non-evaling end user template engine with aesthetic markup
 gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
-gem "octokit", "~> 4.14" # Simple wrapper for the GitHub API
+gem "octokit", "~> 4.14", ">= 4.14.0" # Simple wrapper for the GitHub API
 gem "oj", "~> 3.9" # JSON parser and object serializer
 gem "omniauth", "~> 1.9" # A generalized Rack framework for multiple-provider authentication
 gem "omniauth-github", "~> 1.3" # OmniAuth strategy for GitHub
@@ -92,7 +92,7 @@ gem "stripe", "~> 4.23" # Ruby library for the Stripe API
 gem "timber", "~> 3.0" # Great Ruby logging made easy
 gem "timber-rails", "~> 1.0" #  Timber integration for Rails
 gem "twilio-ruby", "~> 5.28" # The official library for communicating with the Twilio REST API
-gem "twitter", "~> 6.2" # A Ruby interface to the Twitter API
+gem "twitter", "~> 6.2", ">= 6.2.0" # A Ruby interface to the Twitter API
 gem "uglifier", "~> 4.2" # Uglifier minifies JavaScript files
 gem "ulid", "~> 1.1" # Universally Unique Lexicographically Sortable Identifier implementation for Ruby
 gem "validate_url", "~> 1.0" # Library for validating urls in Rails
@@ -124,7 +124,7 @@ end
 group :development, :test do
   gem "awesome_print", "~> 1.8" # Great Ruby dubugging companion: pretty print Ruby objects to visualize their structure
   gem "bullet", "~> 6.0" # help to kill N+1 queries and unused eager loading
-  gem "capybara", "~> 3.29" # Capybara is an integration testing tool for rack based web applications
+  gem "capybara", "~> 3.29", ">= 3.29.0" # Capybara is an integration testing tool for rack based web applications
   gem "faker", "~> 2.6" # A library for generating fake data such as names, addresses, and phone numbers
   gem "parallel_tests", "~> 2.29" # Run Test::Unit / RSpec / Cucumber / Spinach in parallel
   gem "pry-byebug", "~> 3.7" # Combine 'pry' with 'byebug'. Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution
@@ -140,7 +140,7 @@ end
 group :test do
   gem "approvals", "~> 0.0" # A library to make it easier to do golden-master style testing in Ruby
   gem "factory_bot_rails", "~> 4.11" # factory_bot is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies
-  gem "launchy", "~> 2.4" # Launchy is helper class for launching cross-platform applications in a fire and forget manner.
+  gem "launchy", "~> 2.4", ">= 2.4.3" # Launchy is helper class for launching cross-platform applications in a fire and forget manner.
   gem "pundit-matchers", "~> 1.6" # A set of RSpec matchers for testing Pundit authorisation policies
   gem "rspec-retry", "~> 0.6" # retry intermittently failing rspec examples
   gem "ruby-prof", "~> 1.0", require: false # ruby-prof is a fast code profiler for Ruby
@@ -152,7 +152,7 @@ group :test do
   gem "timecop", "~> 0.9" # A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code
   gem "vcr", "~> 5.0" # Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests
   gem "webdrivers", "~> 4.1" # Run Selenium tests more easily with install and updates for all supported webdrivers
-  gem "webmock", "~> 3.7" # WebMock allows stubbing HTTP requests and setting expectations on HTTP requests
+  gem "webmock", "~> 3.7", ">= 3.7.6" # WebMock allows stubbing HTTP requests and setting expectations on HTTP requests
   gem "zonebie", "~> 0.6.1" # Runs your tests in a random timezone
 end
 
