@@ -157,5 +157,5 @@ group :test do
 end
 
 group :doc do
-  gem "sdoc", "~> 1.0" # rdoc generator html with javascript search index
+  gem "sdoc", "~> 1.0", ">= 1.0.0" # rdoc generator html with javascript search index
 end
