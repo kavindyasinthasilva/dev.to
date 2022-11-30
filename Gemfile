@@ -30,7 +30,7 @@ gem "cloudinary", "~> 1.12" # Client library for easily using the Cloudinary ser
 gem "counter_culture", "~> 2.2" # counter_culture provides turbo-charged counter caches that are kept up-to-date
 gem "dalli", "~> 2.7" # High performance memcached client for Ruby
 gem "delayed_job_active_record", "~> 4.1" # ActiveRecord backend for Delayed::Job
-gem "delayed_job_web", "~> 1.4" # Web interface for delayed_job
+gem "delayed_job_web", "~> 1.4", ">= 1.4.3" # Web interface for delayed_job
 gem "devise", "~> 4.7" # Flexible authentication solution for Rails
 gem "doorkeeper", "~> 5.1" # Oauth 2 provider
 gem "draper", "~> 3.1" # Draper adds an object-oriented layer of presentation logic to your Rails apps
