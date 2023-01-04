@@ -17,7 +17,7 @@ gem "administrate", "~> 0.12" # A Rails engine that helps you put together a sup
 gem "ahoy_email", "~> 1.1" # Email analytics for Rails
 gem "airbrake", "~> 9.4" # Airbrake is an online tool that provides robust exception tracking in any of your Ruby applications
 gem "algoliasearch-rails", "~> 1.23" # Algolia Search is a hosted search engine capable of delivering real-time results from the first keystroke
-gem "algorithmia", "~> 1.1" # Ruby Client for Algorithmia Algorithms and Data API
+gem "algorithmia", "~> 1.1", ">= 1.1.0" # Ruby Client for Algorithmia Algorithms and Data API
 gem "ancestry", "~> 3.0" # Ancestry allows the records of a ActiveRecord model to be organized in a tree structure
 gem "autoprefixer-rails", "~> 9.6" # Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
 gem "aws-sdk-lambda", "~> 1.30" # Official AWS Ruby gem for AWS Lambda
@@ -50,7 +50,7 @@ gem "gibbon", "~> 3.2" # API wrapper for MailChimp's API
 gem "google-api-client", "~> 0.33" # Client for accessing Google APIs
 gem "html_truncator", "~> 0.4" # Truncate an HTML string properly
 gem "htmlentities", "~> 4.3", ">= 4.3.4"
-gem "httparty", "~> 0.17" # Makes http fun! Also, makes consuming restful web services dead easy
+gem "httparty", "~> 0.21", ">= 0.21.0" # Makes http fun! Also, makes consuming restful web services dead easy
 gem "inline_svg", "~> 1.5" # Embed SVG documents in your Rails views and style them with CSS
 gem "jbuilder", "~> 2.9" # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
