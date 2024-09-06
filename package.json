@@ -88,10 +88,10 @@
   },
   "dependencies": {
     "@github/clipboard-copy-element": "^1.0.7",
-    "@rails/webpacker": "^3.5.5",
+    "@rails/webpacker": "^5.2.2",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-preact": "^1.1.0",
-    "chart.js": "^2.8.0",
+    "babel-preset-preact": "^2.0.0",
+    "chart.js": "^3.0.0",
     "codemirror": "^5.49.2",
     "focus-visible": "^5.0.2",
     "intersection-observer": "^0.7.0",
