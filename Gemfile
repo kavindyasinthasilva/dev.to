@@ -13,7 +13,7 @@ gem "activerecord-import", "~> 1.0" # Adds ability to bulk create activerecord o
 gem "acts-as-taggable-on", "~> 6.0" # A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts
 gem "acts_as_follower", github: "thepracticaldev/acts_as_follower", branch: "master" # Allow any model to follow any other model
 gem "addressable", "~> 2.7" # A replacement for the URI implementation that is part of Ruby's standard library
-gem "administrate", "~> 0.12" # A Rails engine that helps you put together a super-flexible admin dashboard
+gem "administrate", "~> 0.18", ">= 0.18.0" # A Rails engine that helps you put together a super-flexible admin dashboard
 gem "ahoy_email", "~> 1.1" # Email analytics for Rails
 gem "airbrake", "~> 9.4" # Airbrake is an online tool that provides robust exception tracking in any of your Ruby applications
 gem "algoliasearch-rails", "~> 1.23" # Algolia Search is a hosted search engine capable of delivering real-time results from the first keystroke
@@ -56,7 +56,7 @@ gem "jbuilder", "~> 2.9" # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
 gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
 gem "liquid", "~> 4.0" # A secure, non-evaling end user template engine with aesthetic markup
-gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
+gem "nokogiri", "~> 1.18", ">= 1.18.8" # HTML, XML, SAX, and Reader parser
 gem "octokit", "~> 4.14" # Simple wrapper for the GitHub API
 gem "oj", "~> 3.9" # JSON parser and object serializer
 gem "omniauth", "~> 1.9" # A generalized Rack framework for multiple-provider authentication
@@ -68,7 +68,7 @@ gem "pundit", "~> 2.1" # Object oriented authorization for Rails applications
 gem "pusher", "~> 1.3" # Ruby library for Pusher Channels HTTP API
 gem "pusher-push-notifications", "~> 1.1" # Pusher Push Notifications Ruby server SDK
 gem "rack-timeout", "~> 0.5" # Rack middleware which aborts requests that have been running for longer than a specified timeout
-gem "rails", "~> 5.2", ">= 5.2.3" # Ruby on Rails
+gem "rails", "~> 7.0", ">= 7.0.0" # Ruby on Rails
 gem "rails-assets-airbrake-js-client", "~> 1.6", source: "https://rails-assets.org" # Airbrake JavaScript Notifier
 gem "rails-observers", "~> 0.1" # Rails observer (removed from core in Rails 4.0)
 gem "recaptcha", "~> 5.2", require: "recaptcha/rails" # Helpers for the reCAPTCHA API
@@ -78,7 +78,7 @@ gem "rolify", "~> 5.2" # Very simple Roles library
 gem "rouge", "~> 3.11" # A pure-ruby code highlighter
 gem "rubyzip", "~> 1.2", ">= 1.3.0" # Rubyzip is a ruby library for reading and writing zip files
 gem "s3_direct_upload", "~> 0.1" # Direct Upload to Amazon S3
-gem "sail", "~> 1.5" # Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app
+gem "sail", "~> 3.4", ">= 3.4.0" # Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app
 gem "sass-rails", "~> 6.0" # Sass adapter for the Rails asset pipeline
 gem "scout_apm", "~> 2.6" # Monitors Ruby apps and reports detailed metrics on performance to Scout
 gem "serviceworker-rails", "~> 0.6" # Integrates ServiceWorker into the Rails asset pipeline
@@ -141,7 +141,7 @@ group :test do
   gem "approvals", "~> 0.0" # A library to make it easier to do golden-master style testing in Ruby
   gem "factory_bot_rails", "~> 4.11" # factory_bot is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies
   gem "launchy", "~> 2.4" # Launchy is helper class for launching cross-platform applications in a fire and forget manner.
-  gem "pundit-matchers", "~> 1.6" # A set of RSpec matchers for testing Pundit authorisation policies
+  gem "pundit-matchers", "~> 3.0", ">= 3.0.0" # A set of RSpec matchers for testing Pundit authorisation policies
   gem "rspec-retry", "~> 0.6" # retry intermittently failing rspec examples
   gem "ruby-prof", "~> 1.0", require: false # ruby-prof is a fast code profiler for Ruby
   gem "shoulda-matchers", "4.1.2", require: false # Simple one-liner tests for common Rails functionality
