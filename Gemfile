@@ -9,16 +9,16 @@ end
 
 gem "actionpack-action_caching", "~> 1.2" # Action caching for Action Pack (removed from core in Rails 4.0)
 gem "active_record_union", "~> 1.3" # Adds proper union and union_all methods to ActiveRecord::Relation
-gem "activerecord-import", "~> 1.0" # Adds ability to bulk create activerecord objects
-gem "acts-as-taggable-on", "~> 6.0" # A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts
+gem "activerecord-import", "~> 1.0", ">= 1.0.4" # Adds ability to bulk create activerecord objects
+gem "acts-as-taggable-on", "~> 10.0", ">= 10.0.0" # A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts
 gem "acts_as_follower", github: "thepracticaldev/acts_as_follower", branch: "master" # Allow any model to follow any other model
 gem "addressable", "~> 2.7" # A replacement for the URI implementation that is part of Ruby's standard library
-gem "administrate", "~> 0.12" # A Rails engine that helps you put together a super-flexible admin dashboard
+gem "administrate", "~> 0.13", ">= 0.13.0" # A Rails engine that helps you put together a super-flexible admin dashboard
 gem "ahoy_email", "~> 1.1" # Email analytics for Rails
 gem "airbrake", "~> 9.4" # Airbrake is an online tool that provides robust exception tracking in any of your Ruby applications
 gem "algoliasearch-rails", "~> 1.23" # Algolia Search is a hosted search engine capable of delivering real-time results from the first keystroke
 gem "algorithmia", "~> 1.1" # Ruby Client for Algorithmia Algorithms and Data API
-gem "ancestry", "~> 3.0" # Ancestry allows the records of a ActiveRecord model to be organized in a tree structure
+gem "ancestry", "~> 3.1", ">= 3.1.0" # Ancestry allows the records of a ActiveRecord model to be organized in a tree structure
 gem "autoprefixer-rails", "~> 9.6" # Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
 gem "aws-sdk-lambda", "~> 1.30" # Official AWS Ruby gem for AWS Lambda
 gem "bootsnap", ">= 1.1.0", require: false # Boot large ruby/rails apps faster
@@ -27,10 +27,10 @@ gem "carrierwave", "~> 2.0" # Upload files in your Ruby applications, map them t
 gem "carrierwave-bombshelter", "~> 0.2" # Protect your carrierwave from image bombs
 gem "cld", "~> 0.8" # Compact Language Detection for Ruby
 gem "cloudinary", "~> 1.12" # Client library for easily using the Cloudinary service
-gem "counter_culture", "~> 2.2" # counter_culture provides turbo-charged counter caches that are kept up-to-date
+gem "counter_culture", "~> 2.3", ">= 2.3.0" # counter_culture provides turbo-charged counter caches that are kept up-to-date
 gem "dalli", "~> 2.7" # High performance memcached client for Ruby
-gem "delayed_job_active_record", "~> 4.1" # ActiveRecord backend for Delayed::Job
-gem "delayed_job_web", "~> 1.4" # Web interface for delayed_job
+gem "delayed_job_active_record", "~> 4.1", ">= 4.1.7" # ActiveRecord backend for Delayed::Job
+gem "delayed_job_web", "~> 1.4", ">= 1.4.4" # Web interface for delayed_job
 gem "devise", "~> 4.7" # Flexible authentication solution for Rails
 gem "doorkeeper", "~> 5.1" # Oauth 2 provider
 gem "draper", "~> 3.1" # Draper adds an object-oriented layer of presentation logic to your Rails apps
@@ -54,7 +54,7 @@ gem "httparty", "~> 0.17" # Makes http fun! Also, makes consuming restful web se
 gem "inline_svg", "~> 1.5" # Embed SVG documents in your Rails views and style them with CSS
 gem "jbuilder", "~> 2.9" # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
-gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
+gem "kaminari", "~> 1.2", ">= 1.2.0" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
 gem "liquid", "~> 4.0" # A secure, non-evaling end user template engine with aesthetic markup
 gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
 gem "octokit", "~> 4.14" # Simple wrapper for the GitHub API
@@ -68,7 +68,7 @@ gem "pundit", "~> 2.1" # Object oriented authorization for Rails applications
 gem "pusher", "~> 1.3" # Ruby library for Pusher Channels HTTP API
 gem "pusher-push-notifications", "~> 1.1" # Pusher Push Notifications Ruby server SDK
 gem "rack-timeout", "~> 0.5" # Rack middleware which aborts requests that have been running for longer than a specified timeout
-gem "rails", "~> 5.2", ">= 5.2.3" # Ruby on Rails
+gem "rails", "~> 7.1", ">= 7.1.5.2" # Ruby on Rails
 gem "rails-assets-airbrake-js-client", "~> 1.6", source: "https://rails-assets.org" # Airbrake JavaScript Notifier
 gem "rails-observers", "~> 0.1" # Rails observer (removed from core in Rails 4.0)
 gem "recaptcha", "~> 5.2", require: "recaptcha/rails" # Helpers for the reCAPTCHA API
@@ -78,7 +78,7 @@ gem "rolify", "~> 5.2" # Very simple Roles library
 gem "rouge", "~> 3.11" # A pure-ruby code highlighter
 gem "rubyzip", "~> 1.2", ">= 1.3.0" # Rubyzip is a ruby library for reading and writing zip files
 gem "s3_direct_upload", "~> 0.1" # Direct Upload to Amazon S3
-gem "sail", "~> 1.5" # Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app
+gem "sail", "~> 2.0", ">= 2.0.0" # Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app
 gem "sass-rails", "~> 6.0" # Sass adapter for the Rails asset pipeline
 gem "scout_apm", "~> 2.6" # Monitors Ruby apps and reports detailed metrics on performance to Scout
 gem "serviceworker-rails", "~> 0.6" # Integrates ServiceWorker into the Rails asset pipeline
